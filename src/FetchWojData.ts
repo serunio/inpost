@@ -35,4 +35,4 @@ export default async function FetchData():Promise<Record<string, PointReduced>> 
   return obj
 }
 
-// FetchData()
+FetchData()

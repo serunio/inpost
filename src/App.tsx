@@ -1,122 +1,84 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from './assets/vite.svg'
-import heroImg from './assets/hero.png'
 import './App.css'
+import {GeoJSON, MapContainer, TileLayer, type GeoJSONProps} from 'react-leaflet'
+import {useEffect, useState} from "react";
+import woj from './wojdata.json'
+
+type feature = {properties: {nazwa:string}}
+
+type RegionData = {
+    count: number
+    location_247: number
+    location_outdoors: number
+}
+
+const getColor = (value:number) => {
+    if (value > 3000) return '#800026'
+    if (value > 2000) return '#BD0026'
+    if (value > 1000) return '#E31A1C'
+    return '#FFEDA0'
+}
 
 function App() {
-  const [count, setCount] = useState(0)
+
+    const [geoJson, setGeoJson] = useState<GeoJSONProps | null>(null)
+    const dataMap:Record<string, RegionData> = woj
+
+    useEffect(() => {
+        async function fetchMap():Promise<void> {
+            try {
+                const response = await fetch('https://raw.githubusercontent.com/ppatrzyk/polska-geojson/refs/heads/master/wojewodztwa/wojewodztwa-min.geojson')
+                const json = await response.json()
+                setGeoJson({data: json})
+                console.log(json)
+            } catch(e) {
+                console.log(e)
+            }
+        }
+
+        fetchMap()
+    }, [])
+
+    const style = (feature:feature) => {
+        const nameLowerCase = feature.properties.nazwa
+        const name = nameLowerCase[0].toUpperCase() + nameLowerCase.substring(1)
+        const value = dataMap[name].count || 0
+
+        return {
+            fillColor: getColor(value),
+            weight: 2,
+            color: 'white',
+            fillOpacity: 0.7
+        }
+    }
+
+    const onEachFeature = (feature:feature, layer) => {
+        const nameLowerCase = feature.properties.nazwa
+        const name = nameLowerCase[0].toUpperCase() + nameLowerCase.substring(1)
+        console.log(name)
+        const value = dataMap[name].count || 0
+
+        layer.bindPopup(`${name}: ${value}`)
+    }
 
   return (
     <>
-      <section id="center">
-        <div className="hero">
-          <img src={heroImg} className="base" width="170" height="179" alt="" />
-          <img src={reactLogo} className="framework" alt="React logo" />
-          <img src={viteLogo} className="vite" alt="Vite logo" />
-        </div>
-        <div>
-          <h1>Get started</h1>
-          <p>
-            Edit <code>src/App.tsx</code> and save to test <code>HMR</code>
-          </p>
-        </div>
-        <button
-          type="button"
-          className="counter"
-          onClick={() => setCount((count) => count + 1)}
-        >
-          Count is {count}
-        </button>
-      </section>
-
-      <div className="ticks"></div>
-
-      <section id="next-steps">
-        <div id="docs">
-          <svg className="icon" role="presentation" aria-hidden="true">
-            <use href="/icons.svg#documentation-icon"></use>
-          </svg>
-          <h2>Documentation</h2>
-          <p>Your questions, answered</p>
-          <ul>
-            <li>
-              <a href="https://vite.dev/" target="_blank">
-                <img className="logo" src={viteLogo} alt="" />
-                Explore Vite
-              </a>
-            </li>
-            <li>
-              <a href="https://react.dev/" target="_blank">
-                <img className="button-icon" src={reactLogo} alt="" />
-                Learn more
-              </a>
-            </li>
-          </ul>
-        </div>
-        <div id="social">
-          <svg className="icon" role="presentation" aria-hidden="true">
-            <use href="/icons.svg#social-icon"></use>
-          </svg>
-          <h2>Connect with us</h2>
-          <p>Join the Vite community</p>
-          <ul>
-            <li>
-              <a href="https://github.com/vitejs/vite" target="_blank">
-                <svg
-                  className="button-icon"
-                  role="presentation"
-                  aria-hidden="true"
-                >
-                  <use href="/icons.svg#github-icon"></use>
-                </svg>
-                GitHub
-              </a>
-            </li>
-            <li>
-              <a href="https://chat.vite.dev/" target="_blank">
-                <svg
-                  className="button-icon"
-                  role="presentation"
-                  aria-hidden="true"
-                >
-                  <use href="/icons.svg#discord-icon"></use>
-                </svg>
-                Discord
-              </a>
-            </li>
-            <li>
-              <a href="https://x.com/vite_js" target="_blank">
-                <svg
-                  className="button-icon"
-                  role="presentation"
-                  aria-hidden="true"
-                >
-                  <use href="/icons.svg#x-icon"></use>
-                </svg>
-                X.com
-              </a>
-            </li>
-            <li>
-              <a href="https://bsky.app/profile/vite.dev" target="_blank">
-                <svg
-                  className="button-icon"
-                  role="presentation"
-                  aria-hidden="true"
-                >
-                  <use href="/icons.svg#bluesky-icon"></use>
-                </svg>
-                Bluesky
-              </a>
-            </li>
-          </ul>
-        </div>
-      </section>
-
-      <div className="ticks"></div>
-      <section id="spacer"></section>
-    </>
-  )
+        <MapContainer center={[52, 19]}
+                      zoom={7}
+                      style={{ height: '1000px' }}
+                      wheelPxPerZoomLevel={100000}
+                      maxBounds={[[49, 14], [55, 24.5]]}
+                      maxBoundsViscosity={1}
+                      minZoom={6}>
+            <TileLayer
+                url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+            />
+            {geoJson && (<GeoJSON
+                data={geoJson.data}
+                style={style}
+                onEachFeature={onEachFeature}
+            />)}
+        </MapContainer>
+      </>)
 }
 
 export default App
