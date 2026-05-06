@@ -128,7 +128,7 @@ function App() {
     <>
       <MapContainer center={[52, 19]}
                     zoom={7}
-                    style={{height: '1000px'}}
+                    style={{height: '80vh'}}
                     wheelPxPerZoomLevel={100000}
                     maxBounds={[[49, 14], [55, 24.5]]}
                     maxBoundsViscosity={1}
