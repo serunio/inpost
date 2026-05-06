@@ -1,0 +1,2592 @@
+{
+  "powiat bolesławiecki": {
+    "ludnosc": 87642,
+    "powierzchnia": 1303,
+    "count": 96,
+    "location_247": 88,
+    "location_outdoors": 88
+  },
+  "powiat dzierżoniowski": {
+    "ludnosc": 94740,
+    "powierzchnia": 479,
+    "count": 85,
+    "location_247": 76,
+    "location_outdoors": 76
+  },
+  "powiat głogowski": {
+    "ludnosc": 85043,
+    "powierzchnia": 443,
+    "count": 68,
+    "location_247": 62,
+    "location_outdoors": 61
+  },
+  "powiat górowski": {
+    "ludnosc": 32459,
+    "powierzchnia": 738,
+    "count": 24,
+    "location_247": 23,
+    "location_outdoors": 23
+  },
+  "powiat jaworski": {
+    "ludnosc": 47213,
+    "powierzchnia": 581,
+    "count": 44,
+    "location_247": 38,
+    "location_outdoors": 38
+  },
+  "powiat karkonoski": {
+    "ludnosc": 60438,
+    "powierzchnia": 627,
+    "count": 0,
+    "location_247": 0,
+    "location_outdoors": 0
+  },
+  "powiat kamiennogórski": {
+    "ludnosc": 40319,
+    "powierzchnia": 396,
+    "count": 31,
+    "location_247": 27,
+    "location_outdoors": 27
+  },
+  "powiat kłodzki": {
+    "ludnosc": 146952,
+    "powierzchnia": 1643,
+    "count": 115,
+    "location_247": 98,
+    "location_outdoors": 98
+  },
+  "powiat legnicki": {
+    "ludnosc": 55032,
+    "powierzchnia": 744,
+    "count": 48,
+    "location_247": 44,
+    "location_outdoors": 44
+  },
+  "powiat lubański": {
+    "ludnosc": 51410,
+    "powierzchnia": 428,
+    "count": 50,
+    "location_247": 48,
+    "location_outdoors": 47
+  },
+  "powiat lubiński": {
+    "ludnosc": 102872,
+    "powierzchnia": 712,
+    "count": 92,
+    "location_247": 73,
+    "location_outdoors": 73
+  },
+  "powiat lwówecki": {
+    "ludnosc": 42817,
+    "powierzchnia": 710,
+    "count": 38,
+    "location_247": 36,
+    "location_outdoors": 36
+  },
+  "powiat milicki": {
+    "ludnosc": 35603,
+    "powierzchnia": 715,
+    "count": 34,
+    "location_247": 32,
+    "location_outdoors": 32
+  },
+  "powiat oleśnicki": {
+    "ludnosc": 106516,
+    "powierzchnia": 1049,
+    "count": 99,
+    "location_247": 92,
+    "location_outdoors": 92
+  },
+  "powiat oławski": {
+    "ludnosc": 77428,
+    "powierzchnia": 524,
+    "count": 82,
+    "location_247": 74,
+    "location_outdoors": 74
+  },
+  "powiat polkowicki": {
+    "ludnosc": 61189,
+    "powierzchnia": 780,
+    "count": 53,
+    "location_247": 49,
+    "location_outdoors": 49
+  },
+  "powiat strzeliński": {
+    "ludnosc": 41782,
+    "powierzchnia": 622,
+    "count": 40,
+    "location_247": 36,
+    "location_outdoors": 36
+  },
+  "powiat średzki": {
+    "ludnosc": 59954,
+    "powierzchnia": 623,
+    "count": 121,
+    "location_247": 111,
+    "location_outdoors": 111
+  },
+  "powiat świdnicki": {
+    "ludnosc": 69274,
+    "powierzchnia": 468,
+    "count": 200,
+    "location_247": 177,
+    "location_outdoors": 176
+  },
+  "powiat trzebnicki": {
+    "ludnosc": 87635,
+    "powierzchnia": 1025,
+    "count": 99,
+    "location_247": 94,
+    "location_outdoors": 94
+  },
+  "powiat wałbrzyski": {
+    "ludnosc": 52656,
+    "powierzchnia": 430,
+    "count": 46,
+    "location_247": 40,
+    "location_outdoors": 40
+  },
+  "powiat wołowski": {
+    "ludnosc": 45458,
+    "powierzchnia": 675,
+    "count": 39,
+    "location_247": 37,
+    "location_outdoors": 37
+  },
+  "powiat wrocławski": {
+    "ludnosc": 187153,
+    "powierzchnia": 1118,
+    "count": 196,
+    "location_247": 183,
+    "location_outdoors": 183
+  },
+  "powiat ząbkowicki": {
+    "ludnosc": 60562,
+    "powierzchnia": 802,
+    "count": 56,
+    "location_247": 47,
+    "location_outdoors": 47
+  },
+  "powiat zgorzelecki": {
+    "ludnosc": 85139,
+    "powierzchnia": 839,
+    "count": 71,
+    "location_247": 68,
+    "location_outdoors": 68
+  },
+  "powiat złotoryjski": {
+    "ludnosc": 40616,
+    "powierzchnia": 576,
+    "count": 36,
+    "location_247": 32,
+    "location_outdoors": 32
+  },
+  "powiat Jelenia Góra": {
+    "ludnosc": 75124,
+    "powierzchnia": 109,
+    "count": 55,
+    "location_247": 51,
+    "location_outdoors": 51
+  },
+  "powiat Legnica": {
+    "ludnosc": 91948,
+    "powierzchnia": 56,
+    "count": 65,
+    "location_247": 61,
+    "location_outdoors": 61
+  },
+  "powiat Wrocław": {
+    "ludnosc": 673743,
+    "powierzchnia": 293,
+    "count": 672,
+    "location_247": 535,
+    "location_outdoors": 503
+  },
+  "powiat Wałbrzych": {
+    "ludnosc": 100294,
+    "powierzchnia": 85,
+    "count": 86,
+    "location_247": 74,
+    "location_outdoors": 71
+  },
+  "powiat aleksandrowski": {
+    "ludnosc": 53458,
+    "powierzchnia": 475,
+    "count": 48,
+    "location_247": 42,
+    "location_outdoors": 40
+  },
+  "powiat brodnicki": {
+    "ludnosc": 77791,
+    "powierzchnia": 1040,
+    "count": 63,
+    "location_247": 55,
+    "location_outdoors": 54
+  },
+  "powiat bydgoski": {
+    "ludnosc": 126981,
+    "powierzchnia": 1394,
+    "count": 126,
+    "location_247": 120,
+    "location_outdoors": 120
+  },
+  "powiat chełmiński": {
+    "ludnosc": 49123,
+    "powierzchnia": 527,
+    "count": 30,
+    "location_247": 29,
+    "location_outdoors": 29
+  },
+  "powiat golubsko-dobrzyński": {
+    "ludnosc": 43278,
+    "powierzchnia": 613,
+    "count": 28,
+    "location_247": 25,
+    "location_outdoors": 25
+  },
+  "powiat grudziądzki": {
+    "ludnosc": 39137,
+    "powierzchnia": 729,
+    "count": 32,
+    "location_247": 31,
+    "location_outdoors": 31
+  },
+  "powiat inowrocławski": {
+    "ludnosc": 150555,
+    "powierzchnia": 1225,
+    "count": 96,
+    "location_247": 84,
+    "location_outdoors": 84
+  },
+  "powiat lipnowski": {
+    "ludnosc": 62578,
+    "powierzchnia": 1016,
+    "count": 44,
+    "location_247": 42,
+    "location_outdoors": 41
+  },
+  "powiat mogileński": {
+    "ludnosc": 43577,
+    "powierzchnia": 675,
+    "count": 33,
+    "location_247": 31,
+    "location_outdoors": 31
+  },
+  "powiat nakielski": {
+    "ludnosc": 82874,
+    "powierzchnia": 1120,
+    "count": 69,
+    "location_247": 66,
+    "location_outdoors": 66
+  },
+  "powiat radziejowski": {
+    "ludnosc": 37812,
+    "powierzchnia": 607,
+    "count": 22,
+    "location_247": 21,
+    "location_outdoors": 21
+  },
+  "powiat rypiński": {
+    "ludnosc": 41185,
+    "powierzchnia": 587,
+    "count": 25,
+    "location_247": 23,
+    "location_outdoors": 23
+  },
+  "powiat sępoleński": {
+    "ludnosc": 38826,
+    "powierzchnia": 791,
+    "count": 27,
+    "location_247": 25,
+    "location_outdoors": 25
+  },
+  "powiat świecki": {
+    "ludnosc": 94831,
+    "powierzchnia": 1474,
+    "count": 87,
+    "location_247": 77,
+    "location_outdoors": 77
+  },
+  "powiat toruński": {
+    "ludnosc": 114303,
+    "powierzchnia": 1230,
+    "count": 94,
+    "location_247": 85,
+    "location_outdoors": 85
+  },
+  "powiat tucholski": {
+    "ludnosc": 46917,
+    "powierzchnia": 1075,
+    "count": 36,
+    "location_247": 34,
+    "location_outdoors": 34
+  },
+  "powiat wąbrzeski": {
+    "ludnosc": 32420,
+    "powierzchnia": 501,
+    "count": 18,
+    "location_247": 16,
+    "location_outdoors": 16
+  },
+  "powiat włocławski": {
+    "ludnosc": 82151,
+    "powierzchnia": 1472,
+    "count": 57,
+    "location_247": 47,
+    "location_outdoors": 46
+  },
+  "powiat żniński": {
+    "ludnosc": 67536,
+    "powierzchnia": 985,
+    "count": 54,
+    "location_247": 49,
+    "location_outdoors": 49
+  },
+  "powiat Bydgoszcz": {
+    "ludnosc": 326434,
+    "powierzchnia": 176,
+    "count": 277,
+    "location_247": 243,
+    "location_outdoors": 236
+  },
+  "powiat Grudziądz": {
+    "ludnosc": 88658,
+    "powierzchnia": 58,
+    "count": 74,
+    "location_247": 61,
+    "location_outdoors": 61
+  },
+  "powiat Toruń": {
+    "ludnosc": 194771,
+    "powierzchnia": 116,
+    "count": 159,
+    "location_247": 149,
+    "location_outdoors": 147
+  },
+  "powiat Włocławek": {
+    "ludnosc": 100807,
+    "powierzchnia": 85,
+    "count": 73,
+    "location_247": 69,
+    "location_outdoors": 68
+  },
+  "powiat bialski": {
+    "ludnosc": 104849,
+    "powierzchnia": 2754,
+    "count": 77,
+    "location_247": 71,
+    "location_outdoors": 71
+  },
+  "powiat biłgorajski": {
+    "ludnosc": 96158,
+    "powierzchnia": 1681,
+    "count": 88,
+    "location_247": 78,
+    "location_outdoors": 78
+  },
+  "powiat chełmski": {
+    "ludnosc": 73705,
+    "powierzchnia": 1881,
+    "count": 43,
+    "location_247": 42,
+    "location_outdoors": 42
+  },
+  "powiat hrubieszowski": {
+    "ludnosc": 56783,
+    "powierzchnia": 1270,
+    "count": 34,
+    "location_247": 30,
+    "location_outdoors": 30
+  },
+  "powiat janowski": {
+    "ludnosc": 42796,
+    "powierzchnia": 876,
+    "count": 37,
+    "location_247": 34,
+    "location_outdoors": 34
+  },
+  "powiat krasnostawski": {
+    "ludnosc": 59041,
+    "powierzchnia": 1032,
+    "count": 35,
+    "location_247": 31,
+    "location_outdoors": 31
+  },
+  "powiat kraśnicki": {
+    "ludnosc": 89215,
+    "powierzchnia": 1005,
+    "count": 65,
+    "location_247": 62,
+    "location_outdoors": 62
+  },
+  "powiat lubartowski": {
+    "ludnosc": 83975,
+    "powierzchnia": 1289,
+    "count": 63,
+    "location_247": 58,
+    "location_outdoors": 58
+  },
+  "powiat lubelski": {
+    "ludnosc": 164469,
+    "powierzchnia": 1680,
+    "count": 129,
+    "location_247": 121,
+    "location_outdoors": 121
+  },
+  "powiat łęczyński": {
+    "ludnosc": 55721,
+    "powierzchnia": 637,
+    "count": 34,
+    "location_247": 32,
+    "location_outdoors": 32
+  },
+  "powiat łukowski": {
+    "ludnosc": 100959,
+    "powierzchnia": 1394,
+    "count": 79,
+    "location_247": 74,
+    "location_outdoors": 74
+  },
+  "powiat opolski": {
+    "ludnosc": 120841,
+    "powierzchnia": 1534,
+    "count": 162,
+    "location_247": 151,
+    "location_outdoors": 151
+  },
+  "powiat parczewski": {
+    "ludnosc": 32223,
+    "powierzchnia": 952,
+    "count": 21,
+    "location_247": 19,
+    "location_outdoors": 19
+  },
+  "powiat puławski": {
+    "ludnosc": 107020,
+    "powierzchnia": 934,
+    "count": 77,
+    "location_247": 69,
+    "location_outdoors": 69
+  },
+  "powiat radzyński": {
+    "ludnosc": 55021,
+    "powierzchnia": 965,
+    "count": 40,
+    "location_247": 37,
+    "location_outdoors": 37
+  },
+  "powiat rycki": {
+    "ludnosc": 51557,
+    "powierzchnia": 614,
+    "count": 46,
+    "location_247": 41,
+    "location_outdoors": 41
+  },
+  "powiat tomaszowski": {
+    "ludnosc": 110634,
+    "powierzchnia": 1025,
+    "count": 144,
+    "location_247": 130,
+    "location_outdoors": 130
+  },
+  "powiat włodawski": {
+    "ludnosc": 35399,
+    "powierzchnia": 1256,
+    "count": 24,
+    "location_247": 22,
+    "location_outdoors": 22
+  },
+  "powiat zamojski": {
+    "ludnosc": 100753,
+    "powierzchnia": 1870,
+    "count": 72,
+    "location_247": 68,
+    "location_outdoors": 68
+  },
+  "powiat Biała Podlaska": {
+    "ludnosc": 54453,
+    "powierzchnia": 49,
+    "count": 42,
+    "location_247": 36,
+    "location_outdoors": 36
+  },
+  "powiat Chełm": {
+    "ludnosc": 57214,
+    "powierzchnia": 40,
+    "count": 45,
+    "location_247": 42,
+    "location_outdoors": 42
+  },
+  "powiat Lublin": {
+    "ludnosc": 329565,
+    "powierzchnia": 147,
+    "count": 267,
+    "location_247": 236,
+    "location_outdoors": 234
+  },
+  "powiat Zamość": {
+    "ludnosc": 58231,
+    "powierzchnia": 30,
+    "count": 52,
+    "location_247": 39,
+    "location_outdoors": 39
+  },
+  "powiat gorzowski": {
+    "ludnosc": 73897,
+    "powierzchnia": 1214,
+    "count": 77,
+    "location_247": 76,
+    "location_outdoors": 76
+  },
+  "powiat krośnieński": {
+    "ludnosc": 108659,
+    "powierzchnia": 992,
+    "count": 152,
+    "location_247": 139,
+    "location_outdoors": 140
+  },
+  "powiat międzyrzecki": {
+    "ludnosc": 54839,
+    "powierzchnia": 1388,
+    "count": 49,
+    "location_247": 47,
+    "location_outdoors": 47
+  },
+  "powiat nowosolski": {
+    "ludnosc": 82281,
+    "powierzchnia": 771,
+    "count": 81,
+    "location_247": 75,
+    "location_outdoors": 75
+  },
+  "powiat słubicki": {
+    "ludnosc": 45854,
+    "powierzchnia": 999,
+    "count": 46,
+    "location_247": 42,
+    "location_outdoors": 42
+  },
+  "powiat strzelecko-drezdenecki": {
+    "ludnosc": 46658,
+    "powierzchnia": 1248,
+    "count": 38,
+    "location_247": 33,
+    "location_outdoors": 32
+  },
+  "powiat sulęciński": {
+    "ludnosc": 33495,
+    "powierzchnia": 1178,
+    "count": 33,
+    "location_247": 31,
+    "location_outdoors": 31
+  },
+  "powiat świebodziński": {
+    "ludnosc": 53961,
+    "powierzchnia": 937,
+    "count": 56,
+    "location_247": 52,
+    "location_outdoors": 51
+  },
+  "powiat zielonogórski": {
+    "ludnosc": 75077,
+    "powierzchnia": 1351,
+    "count": 72,
+    "location_247": 69,
+    "location_outdoors": 69
+  },
+  "powiat żagański": {
+    "ludnosc": 73604,
+    "powierzchnia": 1131,
+    "count": 81,
+    "location_247": 76,
+    "location_outdoors": 76
+  },
+  "powiat żarski": {
+    "ludnosc": 91210,
+    "powierzchnia": 1393,
+    "count": 91,
+    "location_247": 84,
+    "location_outdoors": 84
+  },
+  "powiat wschowski": {
+    "ludnosc": 37251,
+    "powierzchnia": 624,
+    "count": 40,
+    "location_247": 33,
+    "location_outdoors": 33
+  },
+  "powiat Gorzów Wielkopolski": {
+    "ludnosc": 115247,
+    "powierzchnia": 86,
+    "count": 109,
+    "location_247": 92,
+    "location_outdoors": 92
+  },
+  "powiat Zielona Góra": {
+    "ludnosc": 138932,
+    "powierzchnia": 278,
+    "count": 147,
+    "location_247": 129,
+    "location_outdoors": 129
+  },
+  "powiat bełchatowski": {
+    "ludnosc": 108599,
+    "powierzchnia": 968,
+    "count": 93,
+    "location_247": 85,
+    "location_outdoors": 85
+  },
+  "powiat kutnowski": {
+    "ludnosc": 90671,
+    "powierzchnia": 887,
+    "count": 60,
+    "location_247": 58,
+    "location_outdoors": 57
+  },
+  "powiat łaski": {
+    "ludnosc": 48742,
+    "powierzchnia": 618,
+    "count": 45,
+    "location_247": 41,
+    "location_outdoors": 41
+  },
+  "powiat łęczycki": {
+    "ludnosc": 46666,
+    "powierzchnia": 773,
+    "count": 31,
+    "location_247": 28,
+    "location_outdoors": 29
+  },
+  "powiat łowicki": {
+    "ludnosc": 74009,
+    "powierzchnia": 988,
+    "count": 58,
+    "location_247": 51,
+    "location_outdoors": 51
+  },
+  "powiat łódzki wschodni": {
+    "ludnosc": 74706,
+    "powierzchnia": 500,
+    "count": 72,
+    "location_247": 63,
+    "location_outdoors": 63
+  },
+  "powiat opoczyński": {
+    "ludnosc": 71776,
+    "powierzchnia": 1040,
+    "count": 49,
+    "location_247": 44,
+    "location_outdoors": 44
+  },
+  "powiat pabianicki": {
+    "ludnosc": 119066,
+    "powierzchnia": 492,
+    "count": 100,
+    "location_247": 87,
+    "location_outdoors": 86
+  },
+  "powiat pajęczański": {
+    "ludnosc": 48575,
+    "powierzchnia": 804,
+    "count": 45,
+    "location_247": 42,
+    "location_outdoors": 42
+  },
+  "powiat piotrkowski": {
+    "ludnosc": 90121,
+    "powierzchnia": 1429,
+    "count": 64,
+    "location_247": 62,
+    "location_outdoors": 62
+  },
+  "powiat poddębicki": {
+    "ludnosc": 39356,
+    "powierzchnia": 881,
+    "count": 28,
+    "location_247": 22,
+    "location_outdoors": 22
+  },
+  "powiat radomszczański": {
+    "ludnosc": 106671,
+    "powierzchnia": 1443,
+    "count": 74,
+    "location_247": 71,
+    "location_outdoors": 71
+  },
+  "powiat rawski": {
+    "ludnosc": 46082,
+    "powierzchnia": 646,
+    "count": 33,
+    "location_247": 29,
+    "location_outdoors": 29
+  },
+  "powiat sieradzki": {
+    "ludnosc": 111477,
+    "powierzchnia": 1491,
+    "count": 82,
+    "location_247": 78,
+    "location_outdoors": 78
+  },
+  "powiat skierniewicki": {
+    "ludnosc": 37787,
+    "powierzchnia": 753,
+    "count": 31,
+    "location_247": 29,
+    "location_outdoors": 29
+  },
+  "powiat wieluński": {
+    "ludnosc": 72586,
+    "powierzchnia": 926,
+    "count": 73,
+    "location_247": 65,
+    "location_outdoors": 65
+  },
+  "powiat wieruszowski": {
+    "ludnosc": 41452,
+    "powierzchnia": 577,
+    "count": 35,
+    "location_247": 34,
+    "location_outdoors": 34
+  },
+  "powiat zduńskowolski": {
+    "ludnosc": 63326,
+    "powierzchnia": 369,
+    "count": 52,
+    "location_247": 47,
+    "location_outdoors": 47
+  },
+  "powiat zgierski": {
+    "ludnosc": 166340,
+    "powierzchnia": 855,
+    "count": 153,
+    "location_247": 129,
+    "location_outdoors": 129
+  },
+  "powiat brzeziński": {
+    "ludnosc": 30159,
+    "powierzchnia": 359,
+    "count": 21,
+    "location_247": 19,
+    "location_outdoors": 18
+  },
+  "powiat Łódź": {
+    "ludnosc": 652015,
+    "powierzchnia": 293,
+    "count": 598,
+    "location_247": 498,
+    "location_outdoors": 484
+  },
+  "powiat Piotrków Trybunalski": {
+    "ludnosc": 66519,
+    "powierzchnia": 67,
+    "count": 52,
+    "location_247": 41,
+    "location_outdoors": 41
+  },
+  "powiat Skierniewice": {
+    "ludnosc": 45184,
+    "powierzchnia": 35,
+    "count": 40,
+    "location_247": 31,
+    "location_outdoors": 31
+  },
+  "powiat bocheński": {
+    "ludnosc": 106946,
+    "powierzchnia": 649,
+    "count": 107,
+    "location_247": 99,
+    "location_outdoors": 99
+  },
+  "powiat brzeski": {
+    "ludnosc": 86149,
+    "powierzchnia": 876,
+    "count": 176,
+    "location_247": 160,
+    "location_outdoors": 160
+  },
+  "powiat chrzanowski": {
+    "ludnosc": 118684,
+    "powierzchnia": 370,
+    "count": 111,
+    "location_247": 100,
+    "location_outdoors": 100
+  },
+  "powiat dąbrowski": {
+    "ludnosc": 57550,
+    "powierzchnia": 530,
+    "count": 42,
+    "location_247": 41,
+    "location_outdoors": 41
+  },
+  "powiat gorlicki": {
+    "ludnosc": 105322,
+    "powierzchnia": 966,
+    "count": 93,
+    "location_247": 86,
+    "location_outdoors": 83
+  },
+  "powiat krakowski": {
+    "ludnosc": 302347,
+    "powierzchnia": 1230,
+    "count": 325,
+    "location_247": 294,
+    "location_outdoors": 294
+  },
+  "powiat limanowski": {
+    "ludnosc": 131654,
+    "powierzchnia": 951,
+    "count": 115,
+    "location_247": 101,
+    "location_outdoors": 101
+  },
+  "powiat miechowski": {
+    "ludnosc": 46667,
+    "powierzchnia": 676,
+    "count": 26,
+    "location_247": 25,
+    "location_outdoors": 25
+  },
+  "powiat myślenicki": {
+    "ludnosc": 129843,
+    "powierzchnia": 673,
+    "count": 125,
+    "location_247": 113,
+    "location_outdoors": 113
+  },
+  "powiat nowosądecki": {
+    "ludnosc": 215034,
+    "powierzchnia": 1550,
+    "count": 165,
+    "location_247": 154,
+    "location_outdoors": 155
+  },
+  "powiat nowotarski": {
+    "ludnosc": 190107,
+    "powierzchnia": 1475,
+    "count": 176,
+    "location_247": 169,
+    "location_outdoors": 169
+  },
+  "powiat olkuski": {
+    "ludnosc": 105900,
+    "powierzchnia": 618,
+    "count": 100,
+    "location_247": 92,
+    "location_outdoors": 92
+  },
+  "powiat oświęcimski": {
+    "ludnosc": 148415,
+    "powierzchnia": 406,
+    "count": 143,
+    "location_247": 126,
+    "location_outdoors": 126
+  },
+  "powiat proszowicki": {
+    "ludnosc": 42005,
+    "powierzchnia": 415,
+    "count": 33,
+    "location_247": 29,
+    "location_outdoors": 29
+  },
+  "powiat suski": {
+    "ludnosc": 82886,
+    "powierzchnia": 686,
+    "count": 89,
+    "location_247": 79,
+    "location_outdoors": 78
+  },
+  "powiat tarnowski": {
+    "ludnosc": 197335,
+    "powierzchnia": 1412,
+    "count": 186,
+    "location_247": 168,
+    "location_outdoors": 168
+  },
+  "powiat tatrzański": {
+    "ludnosc": 66478,
+    "powierzchnia": 472,
+    "count": 55,
+    "location_247": 51,
+    "location_outdoors": 52
+  },
+  "powiat wadowicki": {
+    "ludnosc": 157473,
+    "powierzchnia": 646,
+    "count": 158,
+    "location_247": 145,
+    "location_outdoors": 145
+  },
+  "powiat wielicki": {
+    "ludnosc": 143628,
+    "powierzchnia": 411,
+    "count": 157,
+    "location_247": 138,
+    "location_outdoors": 139
+  },
+  "powiat Kraków": {
+    "ludnosc": 806201,
+    "powierzchnia": 327,
+    "count": 816,
+    "location_247": 666,
+    "location_outdoors": 647
+  },
+  "powiat Nowy Sącz": {
+    "ludnosc": 80358,
+    "powierzchnia": 58,
+    "count": 61,
+    "location_247": 53,
+    "location_outdoors": 53
+  },
+  "powiat Tarnów": {
+    "ludnosc": 103129,
+    "powierzchnia": 72,
+    "count": 96,
+    "location_247": 83,
+    "location_outdoors": 80
+  },
+  "powiat białobrzeski": {
+    "ludnosc": 32520,
+    "powierzchnia": 639,
+    "count": 27,
+    "location_247": 24,
+    "location_outdoors": 24
+  },
+  "powiat ciechanowski": {
+    "ludnosc": 85167,
+    "powierzchnia": 1060,
+    "count": 64,
+    "location_247": 58,
+    "location_outdoors": 58
+  },
+  "powiat garwoliński": {
+    "ludnosc": 105510,
+    "powierzchnia": 1285,
+    "count": 85,
+    "location_247": 77,
+    "location_outdoors": 76
+  },
+  "powiat gostyniński": {
+    "ludnosc": 42238,
+    "powierzchnia": 615,
+    "count": 23,
+    "location_247": 20,
+    "location_outdoors": 20
+  },
+  "powiat grodziski": {
+    "ludnosc": 51560,
+    "powierzchnia": 644,
+    "count": 143,
+    "location_247": 128,
+    "location_outdoors": 128
+  },
+  "powiat grójecki": {
+    "ludnosc": 97029,
+    "powierzchnia": 1268,
+    "count": 82,
+    "location_247": 72,
+    "location_outdoors": 72
+  },
+  "powiat kozienicki": {
+    "ludnosc": 57153,
+    "powierzchnia": 916,
+    "count": 42,
+    "location_247": 39,
+    "location_outdoors": 39
+  },
+  "powiat legionowski": {
+    "ludnosc": 131847,
+    "powierzchnia": 391,
+    "count": 121,
+    "location_247": 108,
+    "location_outdoors": 108
+  },
+  "powiat lipski": {
+    "ludnosc": 31561,
+    "powierzchnia": 740,
+    "count": 19,
+    "location_247": 16,
+    "location_outdoors": 16
+  },
+  "powiat łosicki": {
+    "ludnosc": 28628,
+    "powierzchnia": 772,
+    "count": 17,
+    "location_247": 16,
+    "location_outdoors": 16
+  },
+  "powiat makowski": {
+    "ludnosc": 41736,
+    "powierzchnia": 1065,
+    "count": 38,
+    "location_247": 33,
+    "location_outdoors": 33
+  },
+  "powiat miński": {
+    "ludnosc": 159388,
+    "powierzchnia": 1164,
+    "count": 149,
+    "location_247": 137,
+    "location_outdoors": 137
+  },
+  "powiat mławski": {
+    "ludnosc": 69074,
+    "powierzchnia": 1182,
+    "count": 63,
+    "location_247": 52,
+    "location_outdoors": 52
+  },
+  "powiat nowodworski": {
+    "ludnosc": 33626,
+    "powierzchnia": 914,
+    "count": 100,
+    "location_247": 94,
+    "location_outdoors": 93
+  },
+  "powiat ostrołęcki": {
+    "ludnosc": 87494,
+    "powierzchnia": 2093,
+    "count": 57,
+    "location_247": 51,
+    "location_outdoors": 51
+  },
+  "powiat ostrowski": {
+    "ludnosc": 158486,
+    "powierzchnia": 1160,
+    "count": 212,
+    "location_247": 190,
+    "location_outdoors": 190
+  },
+  "powiat otwocki": {
+    "ludnosc": 126779,
+    "powierzchnia": 616,
+    "count": 134,
+    "location_247": 128,
+    "location_outdoors": 126
+  },
+  "powiat piaseczyński": {
+    "ludnosc": 215088,
+    "powierzchnia": 621,
+    "count": 216,
+    "location_247": 196,
+    "location_outdoors": 195
+  },
+  "powiat płocki": {
+    "ludnosc": 109531,
+    "powierzchnia": 1797,
+    "count": 87,
+    "location_247": 76,
+    "location_outdoors": 74
+  },
+  "powiat płoński": {
+    "ludnosc": 84006,
+    "powierzchnia": 1380,
+    "count": 54,
+    "location_247": 50,
+    "location_outdoors": 50
+  },
+  "powiat pruszkowski": {
+    "ludnosc": 179667,
+    "powierzchnia": 246,
+    "count": 148,
+    "location_247": 130,
+    "location_outdoors": 129
+  },
+  "powiat przasnyski": {
+    "ludnosc": 49037,
+    "powierzchnia": 1219,
+    "count": 30,
+    "location_247": 26,
+    "location_outdoors": 26
+  },
+  "powiat przysuski": {
+    "ludnosc": 38621,
+    "powierzchnia": 802,
+    "count": 23,
+    "location_247": 20,
+    "location_outdoors": 20
+  },
+  "powiat pułtuski": {
+    "ludnosc": 50311,
+    "powierzchnia": 827,
+    "count": 32,
+    "location_247": 26,
+    "location_outdoors": 26
+  },
+  "powiat radomski": {
+    "ludnosc": 151331,
+    "powierzchnia": 1530,
+    "count": 114,
+    "location_247": 106,
+    "location_outdoors": 106
+  },
+  "powiat siedlecki": {
+    "ludnosc": 80441,
+    "powierzchnia": 1603,
+    "count": 65,
+    "location_247": 64,
+    "location_outdoors": 63
+  },
+  "powiat sierpecki": {
+    "ludnosc": 48259,
+    "powierzchnia": 852,
+    "count": 36,
+    "location_247": 33,
+    "location_outdoors": 33
+  },
+  "powiat sochaczewski": {
+    "ludnosc": 83174,
+    "powierzchnia": 735,
+    "count": 64,
+    "location_247": 59,
+    "location_outdoors": 58
+  },
+  "powiat sokołowski": {
+    "ludnosc": 50064,
+    "powierzchnia": 1131,
+    "count": 32,
+    "location_247": 28,
+    "location_outdoors": 28
+  },
+  "powiat szydłowiecki": {
+    "ludnosc": 37500,
+    "powierzchnia": 452,
+    "count": 23,
+    "location_247": 23,
+    "location_outdoors": 23
+  },
+  "powiat warszawski zachodni": {
+    "ludnosc": 135216,
+    "powierzchnia": 534,
+    "count": 136,
+    "location_247": 123,
+    "location_outdoors": 123
+  },
+  "powiat węgrowski": {
+    "ludnosc": 61908,
+    "powierzchnia": 1220,
+    "count": 53,
+    "location_247": 44,
+    "location_outdoors": 44
+  },
+  "powiat wołomiński": {
+    "ludnosc": 275871,
+    "powierzchnia": 954,
+    "count": 248,
+    "location_247": 221,
+    "location_outdoors": 219
+  },
+  "powiat wyszkowski": {
+    "ludnosc": 73441,
+    "powierzchnia": 877,
+    "count": 70,
+    "location_247": 58,
+    "location_outdoors": 58
+  },
+  "powiat zwoleński": {
+    "ludnosc": 34288,
+    "powierzchnia": 573,
+    "count": 24,
+    "location_247": 23,
+    "location_outdoors": 23
+  },
+  "powiat żuromiński": {
+    "ludnosc": 35486,
+    "powierzchnia": 806,
+    "count": 22,
+    "location_247": 21,
+    "location_outdoors": 21
+  },
+  "powiat żyrardowski": {
+    "ludnosc": 75153,
+    "powierzchnia": 532,
+    "count": 66,
+    "location_247": 56,
+    "location_outdoors": 56
+  },
+  "powiat Ostrołęka": {
+    "ludnosc": 48229,
+    "powierzchnia": 33,
+    "count": 40,
+    "location_247": 36,
+    "location_outdoors": 36
+  },
+  "powiat Płock": {
+    "ludnosc": 111190,
+    "powierzchnia": 88,
+    "count": 92,
+    "location_247": 80,
+    "location_outdoors": 76
+  },
+  "powiat Radom": {
+    "ludnosc": 196005,
+    "powierzchnia": 112,
+    "count": 142,
+    "location_247": 119,
+    "location_outdoors": 117
+  },
+  "powiat Siedlce": {
+    "ludnosc": 75297,
+    "powierzchnia": 32,
+    "count": 59,
+    "location_247": 49,
+    "location_outdoors": 49
+  },
+  "powiat Warszawa": {
+    "ludnosc": 1861599,
+    "powierzchnia": 517,
+    "count": 1777,
+    "location_247": 1433,
+    "location_outdoors": 1268
+  },
+  "powiat głubczycki": {
+    "ludnosc": 42608,
+    "powierzchnia": 673,
+    "count": 35,
+    "location_247": 29,
+    "location_outdoors": 29
+  },
+  "powiat kędzierzyńsko-kozielski": {
+    "ludnosc": 86161,
+    "powierzchnia": 625,
+    "count": 71,
+    "location_247": 66,
+    "location_outdoors": 66
+  },
+  "powiat kluczborski": {
+    "ludnosc": 61236,
+    "powierzchnia": 852,
+    "count": 53,
+    "location_247": 50,
+    "location_outdoors": 50
+  },
+  "powiat krapkowicki": {
+    "ludnosc": 59647,
+    "powierzchnia": 442,
+    "count": 63,
+    "location_247": 61,
+    "location_outdoors": 61
+  },
+  "powiat namysłowski": {
+    "ludnosc": 42033,
+    "powierzchnia": 748,
+    "count": 32,
+    "location_247": 27,
+    "location_outdoors": 27
+  },
+  "powiat nyski": {
+    "ludnosc": 127992,
+    "powierzchnia": 1224,
+    "count": 113,
+    "location_247": 106,
+    "location_outdoors": 106
+  },
+  "powiat oleski": {
+    "ludnosc": 61281,
+    "powierzchnia": 973,
+    "count": 51,
+    "location_247": 47,
+    "location_outdoors": 47
+  },
+  "powiat prudnicki": {
+    "ludnosc": 51443,
+    "powierzchnia": 571,
+    "count": 52,
+    "location_247": 48,
+    "location_outdoors": 48
+  },
+  "powiat strzelecki": {
+    "ludnosc": 71257,
+    "powierzchnia": 744,
+    "count": 77,
+    "location_247": 74,
+    "location_outdoors": 74
+  },
+  "powiat Opole": {
+    "ludnosc": 126077,
+    "powierzchnia": 149,
+    "count": 110,
+    "location_247": 96,
+    "location_outdoors": 94
+  },
+  "powiat bieszczadzki": {
+    "ludnosc": 20601,
+    "powierzchnia": 1139,
+    "count": 14,
+    "location_247": 12,
+    "location_outdoors": 12
+  },
+  "powiat brzozowski": {
+    "ludnosc": 63203,
+    "powierzchnia": 539,
+    "count": 58,
+    "location_247": 54,
+    "location_outdoors": 54
+  },
+  "powiat dębicki": {
+    "ludnosc": 132615,
+    "powierzchnia": 777,
+    "count": 148,
+    "location_247": 128,
+    "location_outdoors": 128
+  },
+  "powiat jarosławski": {
+    "ludnosc": 115865,
+    "powierzchnia": 1029,
+    "count": 90,
+    "location_247": 85,
+    "location_outdoors": 85
+  },
+  "powiat jasielski": {
+    "ludnosc": 108819,
+    "powierzchnia": 831,
+    "count": 92,
+    "location_247": 83,
+    "location_outdoors": 83
+  },
+  "powiat kolbuszowski": {
+    "ludnosc": 61160,
+    "powierzchnia": 773,
+    "count": 58,
+    "location_247": 54,
+    "location_outdoors": 54
+  },
+  "powiat leżajski": {
+    "ludnosc": 66698,
+    "powierzchnia": 584,
+    "count": 58,
+    "location_247": 55,
+    "location_outdoors": 55
+  },
+  "powiat lubaczowski": {
+    "ludnosc": 52565,
+    "powierzchnia": 1308,
+    "count": 40,
+    "location_247": 37,
+    "location_outdoors": 37
+  },
+  "powiat łańcucki": {
+    "ludnosc": 80844,
+    "powierzchnia": 452,
+    "count": 75,
+    "location_247": 70,
+    "location_outdoors": 70
+  },
+  "powiat mielecki": {
+    "ludnosc": 132983,
+    "powierzchnia": 881,
+    "count": 119,
+    "location_247": 108,
+    "location_outdoors": 108
+  },
+  "powiat niżański": {
+    "ludnosc": 63733,
+    "powierzchnia": 786,
+    "count": 58,
+    "location_247": 55,
+    "location_outdoors": 55
+  },
+  "powiat przemyski": {
+    "ludnosc": 71131,
+    "powierzchnia": 1211,
+    "count": 57,
+    "location_247": 53,
+    "location_outdoors": 53
+  },
+  "powiat przeworski": {
+    "ludnosc": 75739,
+    "powierzchnia": 698,
+    "count": 73,
+    "location_247": 67,
+    "location_outdoors": 67
+  },
+  "powiat ropczycko-sędziszowski": {
+    "ludnosc": 74027,
+    "powierzchnia": 548,
+    "count": 85,
+    "location_247": 78,
+    "location_outdoors": 78
+  },
+  "powiat rzeszowski": {
+    "ludnosc": 175777,
+    "powierzchnia": 1145,
+    "count": 138,
+    "location_247": 128,
+    "location_outdoors": 128
+  },
+  "powiat sanocki": {
+    "ludnosc": 89743,
+    "powierzchnia": 1156,
+    "count": 65,
+    "location_247": 61,
+    "location_outdoors": 60
+  },
+  "powiat stalowowolski": {
+    "ludnosc": 100891,
+    "powierzchnia": 832,
+    "count": 68,
+    "location_247": 62,
+    "location_outdoors": 61
+  },
+  "powiat strzyżowski": {
+    "ludnosc": 59201,
+    "powierzchnia": 503,
+    "count": 43,
+    "location_247": 38,
+    "location_outdoors": 38
+  },
+  "powiat tarnobrzeski": {
+    "ludnosc": 50935,
+    "powierzchnia": 521,
+    "count": 44,
+    "location_247": 44,
+    "location_outdoors": 44
+  },
+  "powiat leski": {
+    "ludnosc": 25397,
+    "powierzchnia": 835,
+    "count": 20,
+    "location_247": 18,
+    "location_outdoors": 17
+  },
+  "powiat Krosno": {
+    "ludnosc": 44060,
+    "powierzchnia": 45,
+    "count": 41,
+    "location_247": 33,
+    "location_outdoors": 33
+  },
+  "powiat Przemyśl": {
+    "ludnosc": 56050,
+    "powierzchnia": 46,
+    "count": 32,
+    "location_247": 25,
+    "location_outdoors": 25
+  },
+  "powiat Rzeszów": {
+    "ludnosc": 197268,
+    "powierzchnia": 129,
+    "count": 172,
+    "location_247": 142,
+    "location_outdoors": 142
+  },
+  "powiat Tarnobrzeg": {
+    "ludnosc": 43712,
+    "powierzchnia": 85,
+    "count": 33,
+    "location_247": 29,
+    "location_outdoors": 29
+  },
+  "powiat augustowski": {
+    "ludnosc": 54449,
+    "powierzchnia": 1659,
+    "count": 40,
+    "location_247": 35,
+    "location_outdoors": 34
+  },
+  "powiat białostocki": {
+    "ludnosc": 157896,
+    "powierzchnia": 2977,
+    "count": 125,
+    "location_247": 113,
+    "location_outdoors": 113
+  },
+  "powiat bielski": {
+    "ludnosc": 165824,
+    "powierzchnia": 458,
+    "count": 190,
+    "location_247": 177,
+    "location_outdoors": 177
+  },
+  "powiat grajewski": {
+    "ludnosc": 44222,
+    "powierzchnia": 967,
+    "count": 33,
+    "location_247": 29,
+    "location_outdoors": 29
+  },
+  "powiat hajnowski": {
+    "ludnosc": 38817,
+    "powierzchnia": 1624,
+    "count": 36,
+    "location_247": 33,
+    "location_outdoors": 32
+  },
+  "powiat kolneński": {
+    "ludnosc": 35702,
+    "powierzchnia": 940,
+    "count": 17,
+    "location_247": 15,
+    "location_outdoors": 15
+  },
+  "powiat łomżyński": {
+    "ludnosc": 49608,
+    "powierzchnia": 1355,
+    "count": 28,
+    "location_247": 27,
+    "location_outdoors": 27
+  },
+  "powiat moniecki": {
+    "ludnosc": 37358,
+    "powierzchnia": 1382,
+    "count": 20,
+    "location_247": 17,
+    "location_outdoors": 17
+  },
+  "powiat sejneński": {
+    "ludnosc": 18645,
+    "powierzchnia": 855,
+    "count": 13,
+    "location_247": 12,
+    "location_outdoors": 12
+  },
+  "powiat siemiatycki": {
+    "ludnosc": 40636,
+    "powierzchnia": 1459,
+    "count": 29,
+    "location_247": 26,
+    "location_outdoors": 26
+  },
+  "powiat sokólski": {
+    "ludnosc": 61246,
+    "powierzchnia": 2054,
+    "count": 37,
+    "location_247": 35,
+    "location_outdoors": 35
+  },
+  "powiat suwalski": {
+    "ludnosc": 34635,
+    "powierzchnia": 1307,
+    "count": 19,
+    "location_247": 19,
+    "location_outdoors": 19
+  },
+  "powiat wysokomazowiecki": {
+    "ludnosc": 53406,
+    "powierzchnia": 1289,
+    "count": 34,
+    "location_247": 30,
+    "location_outdoors": 31
+  },
+  "powiat zambrowski": {
+    "ludnosc": 41370,
+    "powierzchnia": 733,
+    "count": 26,
+    "location_247": 22,
+    "location_outdoors": 24
+  },
+  "powiat Białystok": {
+    "ludnosc": 291688,
+    "powierzchnia": 102,
+    "count": 266,
+    "location_247": 200,
+    "location_outdoors": 197
+  },
+  "powiat Łomża": {
+    "ludnosc": 59711,
+    "powierzchnia": 33,
+    "count": 43,
+    "location_247": 38,
+    "location_outdoors": 38
+  },
+  "powiat Suwałki": {
+    "ludnosc": 68231,
+    "powierzchnia": 66,
+    "count": 51,
+    "location_247": 46,
+    "location_outdoors": 45
+  },
+  "powiat bytowski": {
+    "ludnosc": 76502,
+    "powierzchnia": 2192,
+    "count": 66,
+    "location_247": 59,
+    "location_outdoors": 59
+  },
+  "powiat chojnicki": {
+    "ludnosc": 96024,
+    "powierzchnia": 1364,
+    "count": 86,
+    "location_247": 80,
+    "location_outdoors": 79
+  },
+  "powiat człuchowski": {
+    "ludnosc": 53135,
+    "powierzchnia": 1575,
+    "count": 53,
+    "location_247": 47,
+    "location_outdoors": 47
+  },
+  "powiat gdański": {
+    "ludnosc": 131728,
+    "powierzchnia": 794,
+    "count": 146,
+    "location_247": 125,
+    "location_outdoors": 125
+  },
+  "powiat kartuski": {
+    "ludnosc": 153813,
+    "powierzchnia": 1120,
+    "count": 154,
+    "location_247": 134,
+    "location_outdoors": 134
+  },
+  "powiat kościerski": {
+    "ludnosc": 72202,
+    "powierzchnia": 1166,
+    "count": 62,
+    "location_247": 57,
+    "location_outdoors": 57
+  },
+  "powiat kwidzyński": {
+    "ludnosc": 80146,
+    "powierzchnia": 835,
+    "count": 63,
+    "location_247": 58,
+    "location_outdoors": 57
+  },
+  "powiat lęborski": {
+    "ludnosc": 63677,
+    "powierzchnia": 708,
+    "count": 57,
+    "location_247": 53,
+    "location_outdoors": 53
+  },
+  "powiat malborski": {
+    "ludnosc": 60647,
+    "powierzchnia": 494,
+    "count": 43,
+    "location_247": 40,
+    "location_outdoors": 40
+  },
+  "powiat pucki": {
+    "ludnosc": 91664,
+    "powierzchnia": 868,
+    "count": 104,
+    "location_247": 95,
+    "location_outdoors": 96
+  },
+  "powiat słupski": {
+    "ludnosc": 96293,
+    "powierzchnia": 2300,
+    "count": 87,
+    "location_247": 80,
+    "location_outdoors": 80
+  },
+  "powiat starogardzki": {
+    "ludnosc": 125125,
+    "powierzchnia": 1346,
+    "count": 102,
+    "location_247": 96,
+    "location_outdoors": 96
+  },
+  "powiat tczewski": {
+    "ludnosc": 111237,
+    "powierzchnia": 697,
+    "count": 97,
+    "location_247": 85,
+    "location_outdoors": 85
+  },
+  "powiat wejherowski": {
+    "ludnosc": 229446,
+    "powierzchnia": 1288,
+    "count": 193,
+    "location_247": 169,
+    "location_outdoors": 170
+  },
+  "powiat sztumski": {
+    "ludnosc": 38341,
+    "powierzchnia": 731,
+    "count": 33,
+    "location_247": 25,
+    "location_outdoors": 27
+  },
+  "powiat Gdańsk": {
+    "ludnosc": 487371,
+    "powierzchnia": 683,
+    "count": 466,
+    "location_247": 390,
+    "location_outdoors": 370
+  },
+  "powiat Gdynia": {
+    "ludnosc": 241189,
+    "powierzchnia": 391,
+    "count": 202,
+    "location_247": 174,
+    "location_outdoors": 166
+  },
+  "powiat Słupsk": {
+    "ludnosc": 85504,
+    "powierzchnia": 53,
+    "count": 52,
+    "location_247": 42,
+    "location_outdoors": 42
+  },
+  "powiat Sopot": {
+    "ludnosc": 31903,
+    "powierzchnia": 28,
+    "count": 22,
+    "location_247": 18,
+    "location_outdoors": 16
+  },
+  "powiat będziński": {
+    "ludnosc": 144685,
+    "powierzchnia": 364,
+    "count": 127,
+    "location_247": 115,
+    "location_outdoors": 114
+  },
+  "powiat cieszyński": {
+    "ludnosc": 174794,
+    "powierzchnia": 730,
+    "count": 182,
+    "location_247": 162,
+    "location_outdoors": 160
+  },
+  "powiat częstochowski": {
+    "ludnosc": 131569,
+    "powierzchnia": 1522,
+    "count": 136,
+    "location_247": 132,
+    "location_outdoors": 132
+  },
+  "powiat gliwicki": {
+    "ludnosc": 113180,
+    "powierzchnia": 665,
+    "count": 114,
+    "location_247": 105,
+    "location_outdoors": 105
+  },
+  "powiat kłobucki": {
+    "ludnosc": 81964,
+    "powierzchnia": 889,
+    "count": 83,
+    "location_247": 76,
+    "location_outdoors": 76
+  },
+  "powiat lubliniecki": {
+    "ludnosc": 74887,
+    "powierzchnia": 822,
+    "count": 73,
+    "location_247": 64,
+    "location_outdoors": 64
+  },
+  "powiat mikołowski": {
+    "ludnosc": 100002,
+    "powierzchnia": 233,
+    "count": 107,
+    "location_247": 99,
+    "location_outdoors": 99
+  },
+  "powiat myszkowski": {
+    "ludnosc": 67573,
+    "powierzchnia": 479,
+    "count": 64,
+    "location_247": 58,
+    "location_outdoors": 58
+  },
+  "powiat pszczyński": {
+    "ludnosc": 110777,
+    "powierzchnia": 471,
+    "count": 123,
+    "location_247": 114,
+    "location_outdoors": 113
+  },
+  "powiat raciborski": {
+    "ludnosc": 99332,
+    "powierzchnia": 544,
+    "count": 110,
+    "location_247": 101,
+    "location_outdoors": 101
+  },
+  "powiat rybnicki": {
+    "ludnosc": 76666,
+    "powierzchnia": 224,
+    "count": 66,
+    "location_247": 62,
+    "location_outdoors": 62
+  },
+  "powiat tarnogórski": {
+    "ludnosc": 139160,
+    "powierzchnia": 644,
+    "count": 118,
+    "location_247": 113,
+    "location_outdoors": 112
+  },
+  "powiat bieruńsko-lędziński": {
+    "ludnosc": 59443,
+    "powierzchnia": 158,
+    "count": 65,
+    "location_247": 60,
+    "location_outdoors": 60
+  },
+  "powiat wodzisławski": {
+    "ludnosc": 150269,
+    "powierzchnia": 287,
+    "count": 160,
+    "location_247": 151,
+    "location_outdoors": 151
+  },
+  "powiat zawierciański": {
+    "ludnosc": 111628,
+    "powierzchnia": 1004,
+    "count": 95,
+    "location_247": 89,
+    "location_outdoors": 89
+  },
+  "powiat żywiecki": {
+    "ludnosc": 148829,
+    "powierzchnia": 1040,
+    "count": 163,
+    "location_247": 148,
+    "location_outdoors": 147
+  },
+  "powiat Bielsko-Biała": {
+    "ludnosc": 165766,
+    "powierzchnia": 124,
+    "count": 154,
+    "location_247": 132,
+    "location_outdoors": 129
+  },
+  "powiat Bytom": {
+    "ludnosc": 147759,
+    "powierzchnia": 69,
+    "count": 116,
+    "location_247": 103,
+    "location_outdoors": 101
+  },
+  "powiat Chorzów": {
+    "ludnosc": 100593,
+    "powierzchnia": 33,
+    "count": 80,
+    "location_247": 69,
+    "location_outdoors": 65
+  },
+  "powiat Częstochowa": {
+    "ludnosc": 205969,
+    "powierzchnia": 160,
+    "count": 167,
+    "location_247": 135,
+    "location_outdoors": 134
+  },
+  "powiat Dąbrowa Górnicza": {
+    "ludnosc": 113460,
+    "powierzchnia": 189,
+    "count": 100,
+    "location_247": 94,
+    "location_outdoors": 91
+  },
+  "powiat Gliwice": {
+    "ludnosc": 169915,
+    "powierzchnia": 134,
+    "count": 158,
+    "location_247": 141,
+    "location_outdoors": 138
+  },
+  "powiat Jastrzębie-Zdrój": {
+    "ludnosc": 82301,
+    "powierzchnia": 85,
+    "count": 61,
+    "location_247": 58,
+    "location_outdoors": 58
+  },
+  "powiat Jaworzno": {
+    "ludnosc": 86812,
+    "powierzchnia": 152,
+    "count": 58,
+    "location_247": 53,
+    "location_outdoors": 53
+  },
+  "powiat Katowice": {
+    "ludnosc": 279190,
+    "powierzchnia": 165,
+    "count": 277,
+    "location_247": 234,
+    "location_outdoors": 220
+  },
+  "powiat Mysłowice": {
+    "ludnosc": 71280,
+    "powierzchnia": 66,
+    "count": 56,
+    "location_247": 48,
+    "location_outdoors": 48
+  },
+  "powiat Piekary Śląskie": {
+    "ludnosc": 51707,
+    "powierzchnia": 40,
+    "count": 43,
+    "location_247": 35,
+    "location_outdoors": 35
+  },
+  "powiat Ruda Śląska": {
+    "ludnosc": 130302,
+    "powierzchnia": 78,
+    "count": 116,
+    "location_247": 99,
+    "location_outdoors": 99
+  },
+  "powiat Rybnik": {
+    "ludnosc": 130887,
+    "powierzchnia": 148,
+    "count": 136,
+    "location_247": 127,
+    "location_outdoors": 127
+  },
+  "powiat Siemianowice Śląskie": {
+    "ludnosc": 63401,
+    "powierzchnia": 26,
+    "count": 36,
+    "location_247": 34,
+    "location_outdoors": 34
+  },
+  "powiat Sosnowiec": {
+    "ludnosc": 187115,
+    "powierzchnia": 91,
+    "count": 149,
+    "location_247": 124,
+    "location_outdoors": 119
+  },
+  "powiat Świętochłowice": {
+    "ludnosc": 45434,
+    "powierzchnia": 13,
+    "count": 27,
+    "location_247": 22,
+    "location_outdoors": 22
+  },
+  "powiat Tychy": {
+    "ludnosc": 122045,
+    "powierzchnia": 82,
+    "count": 101,
+    "location_247": 79,
+    "location_outdoors": 77
+  },
+  "powiat Zabrze": {
+    "ludnosc": 153838,
+    "powierzchnia": 80,
+    "count": 100,
+    "location_247": 88,
+    "location_outdoors": 88
+  },
+  "powiat Żory": {
+    "ludnosc": 61774,
+    "powierzchnia": 65,
+    "count": 63,
+    "location_247": 58,
+    "location_outdoors": 58
+  },
+  "powiat buski": {
+    "ludnosc": 67817,
+    "powierzchnia": 968,
+    "count": 43,
+    "location_247": 39,
+    "location_outdoors": 39
+  },
+  "powiat jędrzejowski": {
+    "ludnosc": 81057,
+    "powierzchnia": 1257,
+    "count": 61,
+    "location_247": 60,
+    "location_outdoors": 60
+  },
+  "powiat kazimierski": {
+    "ludnosc": 31693,
+    "powierzchnia": 422,
+    "count": 24,
+    "location_247": 21,
+    "location_outdoors": 21
+  },
+  "powiat kielecki": {
+    "ludnosc": 211764,
+    "powierzchnia": 2246,
+    "count": 189,
+    "location_247": 180,
+    "location_outdoors": 181
+  },
+  "powiat konecki": {
+    "ludnosc": 73741,
+    "powierzchnia": 1140,
+    "count": 54,
+    "location_247": 49,
+    "location_outdoors": 48
+  },
+  "powiat opatowski": {
+    "ludnosc": 48394,
+    "powierzchnia": 911,
+    "count": 28,
+    "location_247": 24,
+    "location_outdoors": 24
+  },
+  "powiat ostrowiecki": {
+    "ludnosc": 100058,
+    "powierzchnia": 617,
+    "count": 65,
+    "location_247": 61,
+    "location_outdoors": 61
+  },
+  "powiat pińczowski": {
+    "ludnosc": 36739,
+    "powierzchnia": 613,
+    "count": 23,
+    "location_247": 21,
+    "location_outdoors": 21
+  },
+  "powiat sandomierski": {
+    "ludnosc": 71824,
+    "powierzchnia": 676,
+    "count": 54,
+    "location_247": 47,
+    "location_outdoors": 47
+  },
+  "powiat skarżyski": {
+    "ludnosc": 68103,
+    "powierzchnia": 395,
+    "count": 59,
+    "location_247": 54,
+    "location_outdoors": 54
+  },
+  "powiat starachowicki": {
+    "ludnosc": 83634,
+    "powierzchnia": 523,
+    "count": 66,
+    "location_247": 58,
+    "location_outdoors": 58
+  },
+  "powiat staszowski": {
+    "ludnosc": 68448,
+    "powierzchnia": 925,
+    "count": 51,
+    "location_247": 49,
+    "location_outdoors": 49
+  },
+  "powiat włoszczowski": {
+    "ludnosc": 42932,
+    "powierzchnia": 906,
+    "count": 35,
+    "location_247": 34,
+    "location_outdoors": 34
+  },
+  "powiat Kielce": {
+    "ludnosc": 182295,
+    "powierzchnia": 110,
+    "count": 136,
+    "location_247": 118,
+    "location_outdoors": 117
+  },
+  "powiat bartoszycki": {
+    "ludnosc": 52674,
+    "powierzchnia": 1307,
+    "count": 34,
+    "location_247": 33,
+    "location_outdoors": 33
+  },
+  "powiat braniewski": {
+    "ludnosc": 37281,
+    "powierzchnia": 1204,
+    "count": 28,
+    "location_247": 25,
+    "location_outdoors": 25
+  },
+  "powiat działdowski": {
+    "ludnosc": 61416,
+    "powierzchnia": 954,
+    "count": 45,
+    "location_247": 44,
+    "location_outdoors": 44
+  },
+  "powiat elbląski": {
+    "ludnosc": 54142,
+    "powierzchnia": 1413,
+    "count": 45,
+    "location_247": 42,
+    "location_outdoors": 42
+  },
+  "powiat ełcki": {
+    "ludnosc": 88343,
+    "powierzchnia": 1113,
+    "count": 61,
+    "location_247": 54,
+    "location_outdoors": 53
+  },
+  "powiat giżycki": {
+    "ludnosc": 53736,
+    "powierzchnia": 1120,
+    "count": 32,
+    "location_247": 28,
+    "location_outdoors": 28
+  },
+  "powiat iławski": {
+    "ludnosc": 89870,
+    "powierzchnia": 1385,
+    "count": 82,
+    "location_247": 75,
+    "location_outdoors": 74
+  },
+  "powiat kętrzyński": {
+    "ludnosc": 57045,
+    "powierzchnia": 1213,
+    "count": 36,
+    "location_247": 34,
+    "location_outdoors": 34
+  },
+  "powiat lidzbarski": {
+    "ludnosc": 38126,
+    "powierzchnia": 925,
+    "count": 34,
+    "location_247": 25,
+    "location_outdoors": 25
+  },
+  "powiat mrągowski": {
+    "ludnosc": 47472,
+    "powierzchnia": 1065,
+    "count": 38,
+    "location_247": 32,
+    "location_outdoors": 32
+  },
+  "powiat nidzicki": {
+    "ludnosc": 30460,
+    "powierzchnia": 961,
+    "count": 25,
+    "location_247": 25,
+    "location_outdoors": 24
+  },
+  "powiat nowomiejski": {
+    "ludnosc": 41964,
+    "powierzchnia": 694,
+    "count": 35,
+    "location_247": 34,
+    "location_outdoors": 34
+  },
+  "powiat olecki": {
+    "ludnosc": 31996,
+    "powierzchnia": 874,
+    "count": 21,
+    "location_247": 19,
+    "location_outdoors": 19
+  },
+  "powiat olsztyński": {
+    "ludnosc": 129914,
+    "powierzchnia": 2838,
+    "count": 112,
+    "location_247": 105,
+    "location_outdoors": 103
+  },
+  "powiat ostródzki": {
+    "ludnosc": 99069,
+    "powierzchnia": 1767,
+    "count": 81,
+    "location_247": 79,
+    "location_outdoors": 79
+  },
+  "powiat piski": {
+    "ludnosc": 51969,
+    "powierzchnia": 1775,
+    "count": 38,
+    "location_247": 36,
+    "location_outdoors": 36
+  },
+  "powiat szczycieński": {
+    "ludnosc": 66535,
+    "powierzchnia": 1933,
+    "count": 47,
+    "location_247": 47,
+    "location_outdoors": 47
+  },
+  "powiat gołdapski": {
+    "ludnosc": 24860,
+    "powierzchnia": 772,
+    "count": 18,
+    "location_247": 14,
+    "location_outdoors": 14
+  },
+  "powiat węgorzewski": {
+    "ludnosc": 20804,
+    "powierzchnia": 693,
+    "count": 17,
+    "location_247": 15,
+    "location_outdoors": 15
+  },
+  "powiat Elbląg": {
+    "ludnosc": 112923,
+    "powierzchnia": 80,
+    "count": 86,
+    "location_247": 75,
+    "location_outdoors": 74
+  },
+  "powiat Olsztyn": {
+    "ludnosc": 167311,
+    "powierzchnia": 88,
+    "count": 138,
+    "location_247": 124,
+    "location_outdoors": 120
+  },
+  "powiat chodzieski": {
+    "ludnosc": 45206,
+    "powierzchnia": 685,
+    "count": 52,
+    "location_247": 40,
+    "location_outdoors": 40
+  },
+  "powiat czarnkowsko-trzcianecki": {
+    "ludnosc": 83442,
+    "powierzchnia": 1808,
+    "count": 85,
+    "location_247": 74,
+    "location_outdoors": 73
+  },
+  "powiat gnieźnieński": {
+    "ludnosc": 141303,
+    "powierzchnia": 1255,
+    "count": 134,
+    "location_247": 120,
+    "location_outdoors": 120
+  },
+  "powiat gostyński": {
+    "ludnosc": 73516,
+    "powierzchnia": 810,
+    "count": 68,
+    "location_247": 62,
+    "location_outdoors": 62
+  },
+  "powiat jarociński": {
+    "ludnosc": 69749,
+    "powierzchnia": 588,
+    "count": 78,
+    "location_247": 72,
+    "location_outdoors": 72
+  },
+  "powiat kaliski": {
+    "ludnosc": 82215,
+    "powierzchnia": 1160,
+    "count": 79,
+    "location_247": 73,
+    "location_outdoors": 73
+  },
+  "powiat kępiński": {
+    "ludnosc": 55924,
+    "powierzchnia": 608,
+    "count": 64,
+    "location_247": 53,
+    "location_outdoors": 53
+  },
+  "powiat kolski": {
+    "ludnosc": 81562,
+    "powierzchnia": 1011,
+    "count": 71,
+    "location_247": 62,
+    "location_outdoors": 62
+  },
+  "powiat koniński": {
+    "ludnosc": 128837,
+    "powierzchnia": 1578,
+    "count": 120,
+    "location_247": 111,
+    "location_outdoors": 111
+  },
+  "powiat kościański": {
+    "ludnosc": 77239,
+    "powierzchnia": 722,
+    "count": 82,
+    "location_247": 75,
+    "location_outdoors": 75
+  },
+  "powiat krotoszyński": {
+    "ludnosc": 74921,
+    "powierzchnia": 714,
+    "count": 73,
+    "location_247": 64,
+    "location_outdoors": 63
+  },
+  "powiat leszczyński": {
+    "ludnosc": 60017,
+    "powierzchnia": 806,
+    "count": 74,
+    "location_247": 72,
+    "location_outdoors": 72
+  },
+  "powiat międzychodzki": {
+    "ludnosc": 35593,
+    "powierzchnia": 736,
+    "count": 33,
+    "location_247": 30,
+    "location_outdoors": 29
+  },
+  "powiat nowotomyski": {
+    "ludnosc": 75178,
+    "powierzchnia": 1012,
+    "count": 101,
+    "location_247": 92,
+    "location_outdoors": 92
+  },
+  "powiat obornicki": {
+    "ludnosc": 58812,
+    "powierzchnia": 711,
+    "count": 60,
+    "location_247": 53,
+    "location_outdoors": 53
+  },
+  "powiat ostrzeszowski": {
+    "ludnosc": 54566,
+    "powierzchnia": 773,
+    "count": 47,
+    "location_247": 43,
+    "location_outdoors": 43
+  },
+  "powiat pilski": {
+    "ludnosc": 130525,
+    "powierzchnia": 1266,
+    "count": 126,
+    "location_247": 103,
+    "location_outdoors": 103
+  },
+  "powiat pleszewski": {
+    "ludnosc": 61251,
+    "powierzchnia": 713,
+    "count": 61,
+    "location_247": 54,
+    "location_outdoors": 54
+  },
+  "powiat poznański": {
+    "ludnosc": 448663,
+    "powierzchnia": 1900,
+    "count": 530,
+    "location_247": 458,
+    "location_outdoors": 456
+  },
+  "powiat rawicki": {
+    "ludnosc": 58601,
+    "powierzchnia": 553,
+    "count": 53,
+    "location_247": 48,
+    "location_outdoors": 48
+  },
+  "powiat słupecki": {
+    "ludnosc": 57264,
+    "powierzchnia": 838,
+    "count": 49,
+    "location_247": 49,
+    "location_outdoors": 48
+  },
+  "powiat szamotulski": {
+    "ludnosc": 91659,
+    "powierzchnia": 1119,
+    "count": 85,
+    "location_247": 77,
+    "location_outdoors": 77
+  },
+  "powiat śremski": {
+    "ludnosc": 61044,
+    "powierzchnia": 574,
+    "count": 54,
+    "location_247": 48,
+    "location_outdoors": 48
+  },
+  "powiat turecki": {
+    "ludnosc": 80990,
+    "powierzchnia": 930,
+    "count": 67,
+    "location_247": 64,
+    "location_outdoors": 64
+  },
+  "powiat wągrowiecki": {
+    "ludnosc": 69007,
+    "powierzchnia": 1040,
+    "count": 63,
+    "location_247": 56,
+    "location_outdoors": 56
+  },
+  "powiat wolsztyński": {
+    "ludnosc": 56672,
+    "powierzchnia": 680,
+    "count": 77,
+    "location_247": 72,
+    "location_outdoors": 72
+  },
+  "powiat wrzesiński": {
+    "ludnosc": 78223,
+    "powierzchnia": 704,
+    "count": 79,
+    "location_247": 68,
+    "location_outdoors": 68
+  },
+  "powiat złotowski": {
+    "ludnosc": 67301,
+    "powierzchnia": 1661,
+    "count": 51,
+    "location_247": 47,
+    "location_outdoors": 47
+  },
+  "powiat Kalisz": {
+    "ludnosc": 93137,
+    "powierzchnia": 69,
+    "count": 90,
+    "location_247": 68,
+    "location_outdoors": 67
+  },
+  "powiat Konin": {
+    "ludnosc": 67066,
+    "powierzchnia": 82,
+    "count": 53,
+    "location_247": 46,
+    "location_outdoors": 46
+  },
+  "powiat Leszno": {
+    "ludnosc": 60051,
+    "powierzchnia": 32,
+    "count": 60,
+    "location_247": 51,
+    "location_outdoors": 51
+  },
+  "powiat Poznań": {
+    "ludnosc": 538439,
+    "powierzchnia": 262,
+    "count": 609,
+    "location_247": 483,
+    "location_outdoors": 438
+  },
+  "powiat białogardzki": {
+    "ludnosc": 44373,
+    "powierzchnia": 845,
+    "count": 33,
+    "location_247": 30,
+    "location_outdoors": 30
+  },
+  "powiat choszczeński": {
+    "ludnosc": 44422,
+    "powierzchnia": 1328,
+    "count": 34,
+    "location_247": 31,
+    "location_outdoors": 31
+  },
+  "powiat drawski": {
+    "ludnosc": 53516,
+    "powierzchnia": 1764,
+    "count": 38,
+    "location_247": 36,
+    "location_outdoors": 36
+  },
+  "powiat goleniowski": {
+    "ludnosc": 81363,
+    "powierzchnia": 1615,
+    "count": 85,
+    "location_247": 76,
+    "location_outdoors": 76
+  },
+  "powiat gryficki": {
+    "ludnosc": 56435,
+    "powierzchnia": 1021,
+    "count": 52,
+    "location_247": 46,
+    "location_outdoors": 46
+  },
+  "powiat gryfiński": {
+    "ludnosc": 76959,
+    "powierzchnia": 1869,
+    "count": 61,
+    "location_247": 58,
+    "location_outdoors": 58
+  },
+  "powiat kamieński": {
+    "ludnosc": 44137,
+    "powierzchnia": 1008,
+    "count": 44,
+    "location_247": 39,
+    "location_outdoors": 39
+  },
+  "powiat kołobrzeski": {
+    "ludnosc": 76721,
+    "powierzchnia": 728,
+    "count": 65,
+    "location_247": 59,
+    "location_outdoors": 59
+  },
+  "powiat koszaliński": {
+    "ludnosc": 64450,
+    "powierzchnia": 1646,
+    "count": 55,
+    "location_247": 51,
+    "location_outdoors": 51
+  },
+  "powiat myśliborski": {
+    "ludnosc": 62224,
+    "powierzchnia": 1182,
+    "count": 47,
+    "location_247": 44,
+    "location_outdoors": 43
+  },
+  "powiat policki": {
+    "ludnosc": 85917,
+    "powierzchnia": 664,
+    "count": 65,
+    "location_247": 61,
+    "location_outdoors": 61
+  },
+  "powiat pyrzycki": {
+    "ludnosc": 36413,
+    "powierzchnia": 726,
+    "count": 28,
+    "location_247": 25,
+    "location_outdoors": 25
+  },
+  "powiat sławieński": {
+    "ludnosc": 52903,
+    "powierzchnia": 1043,
+    "count": 53,
+    "location_247": 45,
+    "location_outdoors": 45
+  },
+  "powiat stargardzki": {
+    "ludnosc": 119090,
+    "powierzchnia": 1520,
+    "count": 100,
+    "location_247": 87,
+    "location_outdoors": 87
+  },
+  "powiat szczecinecki": {
+    "ludnosc": 72717,
+    "powierzchnia": 1766,
+    "count": 50,
+    "location_247": 46,
+    "location_outdoors": 46
+  },
+  "powiat świdwiński": {
+    "ludnosc": 43237,
+    "powierzchnia": 1093,
+    "count": 31,
+    "location_247": 29,
+    "location_outdoors": 29
+  },
+  "powiat wałecki": {
+    "ludnosc": 50003,
+    "powierzchnia": 1415,
+    "count": 45,
+    "location_247": 39,
+    "location_outdoors": 39
+  },
+  "powiat łobeski": {
+    "ludnosc": 33394,
+    "powierzchnia": 1065,
+    "count": 22,
+    "location_247": 20,
+    "location_outdoors": 20
+  },
+  "powiat Koszalin": {
+    "ludnosc": 105540,
+    "powierzchnia": 106,
+    "count": 94,
+    "location_247": 80,
+    "location_outdoors": 80
+  },
+  "powiat Szczecin": {
+    "ludnosc": 389066,
+    "powierzchnia": 301,
+    "count": 351,
+    "location_247": 282,
+    "location_outdoors": 273
+  },
+  "powiat Świnoujście": {
+    "ludnosc": 38904,
+    "powierzchnia": 202,
+    "count": 28,
+    "location_247": 19,
+    "location_outdoors": 19
+  }
+}

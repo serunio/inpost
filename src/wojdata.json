@@ -1,82 +1,114 @@
 {
-  "Kujawsko-pomorskie": {
-    "count": 1573,
-    "location_247": 1425,
-    "location_outdoors": 1410
-  },
-  "Lubuskie": {
+  "lubuskie": {
     "count": 974,
     "location_247": 888,
-    "location_outdoors": 886
+    "location_outdoors": 886,
+    "ludnosc": 1000000,
+    "powierzchnia": 13988
   },
-  "Podlaskie": {
-    "count": 848,
-    "location_247": 724,
-    "location_outdoors": 721
-  },
-  "Lubelskie": {
-    "count": 1517,
-    "location_247": 1378,
-    "location_outdoors": 1376
-  },
-  "Świętokrzyskie": {
-    "count": 887,
-    "location_247": 814,
-    "location_outdoors": 813
-  },
-  "Opolskie": {
-    "count": 866,
-    "location_247": 793,
-    "location_outdoors": 791
-  },
-  "Dolnośląskie": {
-    "count": 2690,
-    "location_247": 2362,
-    "location_outdoors": 2324
-  },
-  "Łódzkie": {
-    "count": 1971,
-    "location_247": 1729,
-    "location_outdoors": 1713
-  },
-  "Warmińsko-mazurskie": {
-    "count": 1053,
-    "location_247": 965,
-    "location_outdoors": 955
-  },
-  "Podkarpackie": {
-    "count": 1781,
-    "location_247": 1610,
-    "location_outdoors": 1607
-  },
-  "Zachodniopomorskie": {
-    "count": 1383,
-    "location_247": 1203,
-    "location_outdoors": 1193
-  },
-  "Pomorskie": {
+  "pomorskie": {
     "count": 2131,
     "location_247": 1862,
-    "location_outdoors": 1833
+    "location_outdoors": 1833,
+    "ludnosc": 2350000,
+    "powierzchnia": 18310
   },
-  "Małopolskie": {
-    "count": 3275,
-    "location_247": 2897,
-    "location_outdoors": 2875
+  "opolskie": {
+    "count": 865,
+    "location_247": 793,
+    "location_outdoors": 791,
+    "ludnosc": 950000,
+    "powierzchnia": 9412
   },
-  "Śląskie": {
+  "podkarpackie": {
+    "count": 1780,
+    "location_247": 1610,
+    "location_outdoors": 1607,
+    "ludnosc": 2100000,
+    "powierzchnia": 17846
+  },
+  "świętokrzyskie": {
+    "count": 887,
+    "location_247": 814,
+    "location_outdoors": 813,
+    "ludnosc": 1200000,
+    "powierzchnia": 11711
+  },
+  "dolnośląskie": {
+    "count": 2690,
+    "location_247": 2362,
+    "location_outdoors": 2324,
+    "ludnosc": 2900000,
+    "powierzchnia": 19947
+  },
+  "warmińsko-mazurskie": {
+    "count": 1053,
+    "location_247": 965,
+    "location_outdoors": 955,
+    "ludnosc": 1400000,
+    "powierzchnia": 24173
+  },
+  "śląskie": {
     "count": 3944,
     "location_247": 3534,
-    "location_outdoors": 3491
+    "location_outdoors": 3491,
+    "ludnosc": 4400000,
+    "powierzchnia": 12333
   },
-  "Wielkopolskie": {
+  "podlaskie": {
+    "count": 848,
+    "location_247": 724,
+    "location_outdoors": 721,
+    "ludnosc": 1200000,
+    "powierzchnia": 20187
+  },
+  "mazowieckie": {
+    "count": 4771,
+    "location_247": 4111,
+    "location_outdoors": 3929,
+    "ludnosc": 5500000,
+    "powierzchnia": 35558
+  },
+  "lubelskie": {
+    "count": 1518,
+    "location_247": 1379,
+    "location_outdoors": 1377,
+    "ludnosc": 2100000,
+    "powierzchnia": 25122
+  },
+  "kujawsko-pomorskie": {
+    "count": 1573,
+    "location_247": 1425,
+    "location_outdoors": 1410,
+    "ludnosc": 2000000,
+    "powierzchnia": 17972
+  },
+  "małopolskie": {
+    "count": 3276,
+    "location_247": 2898,
+    "location_outdoors": 2876,
+    "ludnosc": 3400000,
+    "powierzchnia": 15183
+  },
+  "zachodniopomorskie": {
+    "count": 1383,
+    "location_247": 1203,
+    "location_outdoors": 1193,
+    "ludnosc": 1700000,
+    "powierzchnia": 22892
+  },
+  "łódzkie": {
+    "count": 1971,
+    "location_247": 1729,
+    "location_outdoors": 1713,
+    "ludnosc": 2400000,
+    "powierzchnia": 18219
+  },
+  "wielkopolskie": {
     "count": 3611,
     "location_247": 3141,
-    "location_outdoors": 3089
-  },
-  "Mazowieckie": {
-    "count": 4773,
-    "location_247": 4111,
-    "location_outdoors": 3929
+    "location_outdoors": 3089,
+    "ludnosc": 3500000,
+    "powierzchnia": 29826
   }
 }

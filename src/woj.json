@@ -1,20 +1,84 @@
 {
   "woj": [
-    "Dolnośląskie",
-    "Kujawsko-pomorskie",
-    "Lubelskie",
-    "Lubuskie",
-    "Łódzkie",
-    "Małopolskie",
-    "Mazowieckie",
-    "Opolskie",
-    "Podkarpackie",
-    "Podlaskie",
-    "Pomorskie",
-    "Śląskie",
-    "Świętokrzyskie",
-    "Warmińsko-mazurskie",
-    "Wielkopolskie",
-    "Zachodniopomorskie"
+    {
+      "nazwa": "dolnośląskie",
+      "powierzchnia": 19947,
+      "ludnosc": 2900000
+    },
+    {
+      "nazwa": "kujawsko-pomorskie",
+      "powierzchnia": 17972,
+      "ludnosc": 2000000
+    },
+    {
+      "nazwa": "lubelskie",
+      "powierzchnia": 25122,
+      "ludnosc": 2100000
+    },
+    {
+      "nazwa": "lubuskie",
+      "powierzchnia": 13988,
+      "ludnosc": 1000000
+    },
+    {
+      "nazwa": "łódzkie",
+      "powierzchnia": 18219,
+      "ludnosc": 2400000
+    },
+    {
+      "nazwa": "małopolskie",
+      "powierzchnia": 15183,
+      "ludnosc": 3400000
+    },
+    {
+      "nazwa": "mazowieckie",
+      "powierzchnia": 35558,
+      "ludnosc": 5500000
+    },
+    {
+      "nazwa": "opolskie",
+      "powierzchnia": 9412,
+      "ludnosc": 950000
+    },
+    {
+      "nazwa": "podkarpackie",
+      "powierzchnia": 17846,
+      "ludnosc": 2100000
+    },
+    {
+      "nazwa": "podlaskie",
+      "powierzchnia": 20187,
+      "ludnosc": 1200000
+    },
+    {
+      "nazwa": "pomorskie",
+      "powierzchnia": 18310,
+      "ludnosc": 2350000
+    },
+    {
+      "nazwa": "śląskie",
+      "powierzchnia": 12333,
+      "ludnosc": 4400000
+    },
+    {
+      "nazwa": "świętokrzyskie",
+      "powierzchnia": 11711,
+      "ludnosc": 1200000
+    },
+    {
+      "nazwa": "warmińsko-mazurskie",
+      "powierzchnia": 24173,
+      "ludnosc": 1400000
+    },
+    {
+      "nazwa": "wielkopolskie",
+      "powierzchnia": 29826,
+      "ludnosc": 3500000
+    },
+    {
+      "nazwa": "zachodniopomorskie",
+      "powierzchnia": 22892,
+      "ludnosc": 1700000
+    }
   ]
 }

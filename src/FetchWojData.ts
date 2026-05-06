@@ -2,7 +2,7 @@ import {woj} from './woj.json'
 import {writeFile} from 'fs/promises'
 
 type Point = { location_type: string, location_247: boolean }
-type PointReduced = { count: number, location_outdoors: number, location_247: number }
+type PointReduced = { count: number, location_outdoors: number, location_247: number, ludnosc?: number, powierzchnia?: number }
 type InpostResponse = { page: number, total_pages: number, items: Array<Point>, }
 
 export default async function FetchData():Promise<Record<string, PointReduced>> {
@@ -12,9 +12,10 @@ export default async function FetchData():Promise<Record<string, PointReduced>> 
     let page = 1
     let data: InpostResponse
     let count: PointReduced = {count: 0, location_247: 0, location_outdoors: 0}
+
     do {
       try {
-        const response = await fetch(`https://api-global-points.easypack24.net/v1/points?province=${w.toLowerCase()}&per_page=10000&page=${page}`)
+        const response = await fetch(`https://api-global-points.easypack24.net/v1/points?province=${w.nazwa.toLowerCase()}&per_page=10000&page=${page}`)
         data = await response.json()
         count = data.items.reduce((prev, cur) => {
           prev.count++
@@ -27,7 +28,9 @@ export default async function FetchData():Promise<Record<string, PointReduced>> 
         break
       }
     } while (page++ < data.total_pages)
-    obj[w] = count
+    obj[w.nazwa] = count
+    obj[w.nazwa].ludnosc = w.ludnosc
+    obj[w.nazwa].powierzchnia = w.powierzchnia
   }))
 
   await writeFile('wojdata.json', JSON.stringify(obj, null, 2), 'utf8');
