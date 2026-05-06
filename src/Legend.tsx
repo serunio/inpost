@@ -41,7 +41,7 @@ export function Legend({ thresholds, colors, denominator }: LegendProps) {
         </div>`
       );
 
-      const title = denominator === 'ludnosc' ? 'Paczkomaty na 1000 osób' : denominator === 'powierzchnia' ? 'Paczkomaty na 100km^2' : 'Paczkomaty'
+      const title = denominator === 'ludnosc' ? 'Paczkomaty na 1000 osób' : denominator === 'powierzchnia' ? 'Paczkomaty na 100km²' : 'Paczkomaty'
       const titleElem = `<h3>${title}</h3>`
 
       div.innerHTML = [titleElem, ...labels].join("");

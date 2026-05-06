@@ -228,7 +228,7 @@ function App() {
                 type="radio"
                 value="powierzchnia"
                 checked={denominator === 'powierzchnia'}
-                onChange={changeDenominator}/> Paczkomaty na 100km^2
+                onChange={changeDenominator}/> Paczkomaty na 100km²
             </label>
           </td>
         </tr>
