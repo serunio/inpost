@@ -21,14 +21,6 @@ export default async function FetchData() {
 
   const result: Record<string, Summary> = await loadCSV();
 
-  // for (const f of features) {
-  //   result[f.properties.nazwa] = {
-  //     count: 0,
-  //     location_247: 0,
-  //     location_outdoors: 0
-  //   };
-  // }
-
   const range = [...Array(pageCount).keys()].map(i => i + 1);
 
   await Promise.all(range.map(async page => {

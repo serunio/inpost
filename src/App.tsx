@@ -4,6 +4,7 @@ import {type ChangeEvent, useEffect, useState} from "react";
 import woj from './wojdata.json'
 import pow from './powdata.json'
 import {Layer, type StyleFunction} from "leaflet";
+import {Legend} from "./Legend.tsx";
 
 type feature = { properties: { nazwa: string } }
 
@@ -26,55 +27,46 @@ function App() {
   const [variable, setVariable] = useState<keyof RegionData>('count')
   const [denominator, setDenominator] = useState<keyof RegionData | null>(null)
   const [dataMap, setDataMap] = useState<Record<string, RegionData>>(woj)
-  const steps = getScale(variable, denominator)
+  const [scale, setScale] = useState<number[] | null>(null)
 
-  const getColor = (value: number) => {
-    if (steps === null) return '#000'
-    if (value > steps.max - (steps.max - steps.min) / 7) return '#005824'
-    if (value > steps.max - 2*(steps.max - steps.min) / 7) return '#238b45'
-    if (value > steps.max - 3*(steps.max - steps.min) / 7) return '#41ae76'
-    if (value > steps.min + 3*(steps.max - steps.min) / 7) return '#66c2a4'
-    if (value > steps.min + 2*(steps.max - steps.min) / 7) return '#99d8c9'
-    if (value > steps.min + (steps.max - steps.min) / 7) return '#ccece6'
-    return '#edf8fb'
+  const colors = ['#edf8fb', '#ccece6', '#99d8c9', '#66c2a4', '#41ae76', '#238b45', '#005824']
+
+  function getQuantileScale(values: number[], steps = 7) {
+    const sorted = [...values].sort((a, b) => a - b)
+    const thresholds = []
+
+    for (let i = 1; i < steps; i++) {
+      const qIndex = Math.floor((i / steps) * sorted.length)
+      thresholds.push(sorted[qIndex])
+    }
+
+    return thresholds
   }
 
-
-  function getScale<K extends keyof RegionData>(variable: K, denominator: K | null) {
-    const list: number[] = Object.values(dataMap).map(d => d[variable] / (denominator === null ? 1 : d[denominator]))
-    if (list.length === 0) return null;
-
-    const min = Math.min(...list);
-    const max = Math.max(...list);
-    const avg = list.reduce((a, b) => a + b, 0) / list.length;
-
-    const midLow = (min + avg) / 2;
-    const midHigh = (avg + max) / 2;
-
-    console.log({
-      min,
-      midLow,
-      avg,
-      midHigh,
-      max
-    })
-
-    return {
-      min,
-      midLow,
-      avg,
-      midHigh,
-      max
-    };
+  function getColor(value: number, thresholds: number[] | null) {
+    if (thresholds === null) return '#000'
+    for (let i = 0; i < thresholds.length; i++) {
+      if (value <= thresholds[i]) return colors[i]
+    }
+    return colors[colors.length - 1]
   }
 
-  const getValue = (regionData: RegionData): number => {
+  function getValue(regionData: RegionData): number {
     const variableValue = regionData[variable]
-    const denominatorValue = denominator === null ? 1 : regionData[denominator]
-    if (denominatorValue === 0) return 0
-    return variableValue / denominatorValue
-  }
+    if (denominator === null)
+      return variableValue
 
+    const denominatorValue = regionData[denominator]
+
+    if (denominatorValue === 0)
+      return 0
+    if (denominator === 'ludnosc')
+      return variableValue / (denominatorValue / 1000) //na 1000 osób
+    if (denominator === 'powierzchnia')
+      return variableValue / (denominatorValue / 100) //na 100km^2
+
+    return variableValue
+  }
 
   useEffect(() => {
     async function fetchMap(): Promise<void> {
@@ -83,25 +75,28 @@ function App() {
         const response = await fetch(scope === 'woj' ? wojLink : powLink)
         const json = await response.json()
         setGeoJson({data: json})
-        setDataMap(scope === 'woj' ? woj : pow)
+        const newData = scope === 'woj' ? woj : pow
+        setDataMap(newData)
+        const values: number[] = Object.values(newData).map(f => getValue(f))
+        setScale(getQuantileScale(values))
       } catch (e) {
         console.log(e)
       }
     }
 
     fetchMap()
-  }, [scope])
+  }, [scope, variable, denominator])
 
   const style: StyleFunction = (feature) => {
     if (feature === undefined)
       return {}
     const nameLowerCase = feature.properties.nazwa
     const regionData = dataMap[nameLowerCase]
-    if(regionData === undefined) console.log(nameLowerCase)
+    if (regionData === undefined) console.log(nameLowerCase)
     const value = regionData === undefined ? 0 : getValue(regionData)
 
     return {
-      fillColor: getColor(value),
+      fillColor: getColor(value, scale),
       weight: 1,
       color: 'black',
       fillOpacity: 1
@@ -113,22 +108,22 @@ function App() {
     const name = nameLowerCase[0].toUpperCase() + nameLowerCase.substring(1)
     const regionData = dataMap[nameLowerCase]
     const value = regionData === undefined ? 0 : getValue(regionData)
+    const valueRounded = denominator !== null ? value.toFixed(2) : value
 
-    layer.bindPopup(`${name}: ${Number(value.toPrecision(2))}`)
+    layer.bindPopup(`${name}: ${valueRounded}`)
   }
 
-  const changeVariable = (event:ChangeEvent<HTMLInputElement, HTMLInputElement>) => {
+  const changeVariable = (event: ChangeEvent<HTMLInputElement, HTMLInputElement>) => {
     setVariable(event.target.value as keyof RegionData);
   };
-  const changeDenominator = (event:ChangeEvent<HTMLInputElement, HTMLInputElement>) => {
-    if(event.target.value === 'null'){
+  const changeDenominator = (event: ChangeEvent<HTMLInputElement, HTMLInputElement>) => {
+    if (event.target.value === 'null') {
       setDenominator(null)
       return
     }
     setDenominator(event.target.value as keyof RegionData);
   };
 
-  console.log(denominator)
   return (
     <>
       <MapContainer center={[52, 19]}
@@ -147,14 +142,16 @@ function App() {
           style={style}
           onEachFeature={onEachFeature}
         />)}
+        {scale && <Legend thresholds={scale} colors={colors} denominator={denominator}/>}
+
       </MapContainer>
 
       <table>
         <tbody>
         <tr>
           <th>Województwa/Powiaty:</th>
-          <th>Select variable:</th>
-          <th>Select denominator:</th>
+          <th>Paczkomaty:</th>
+          <th>Zmienna:</th>
         </tr>
         <tr>
           <td>
@@ -172,7 +169,7 @@ function App() {
                 type="radio"
                 value="count"
                 checked={variable === 'count'}
-                onChange={changeVariable}/> Count
+                onChange={changeVariable}/> Wszystkie
             </label>
           </td>
           <td>
@@ -181,7 +178,7 @@ function App() {
                 type="radio"
                 value={'null'}
                 checked={denominator === null}
-                onChange={changeDenominator}/> Nic
+                onChange={changeDenominator}/> Paczkomaty
             </label>
           </td>
         </tr>
@@ -201,7 +198,7 @@ function App() {
                 type="radio"
                 value="location_247"
                 checked={variable === 'location_247'}
-                onChange={changeVariable}/> Location 24/7
+                onChange={changeVariable}/> Dostępne 24h na dobę
             </label>
           </td>
           <td>
@@ -209,8 +206,8 @@ function App() {
               <input
                 type="radio"
                 value="ludnosc"
-                checked={denominator=== 'ludnosc'}
-                onChange={changeDenominator}/> Ludność
+                checked={denominator === 'ludnosc'}
+                onChange={changeDenominator}/> Paczkomaty na 1000 osób
             </label>
           </td>
         </tr>
@@ -222,7 +219,7 @@ function App() {
                 type="radio"
                 value="location_outdoors"
                 checked={variable === 'location_outdoors'}
-                onChange={changeVariable}/> Location outdoors
+                onChange={changeVariable}/> Położone na zewnątrz
             </label>
           </td>
           <td>
@@ -231,7 +228,7 @@ function App() {
                 type="radio"
                 value="powierzchnia"
                 checked={denominator === 'powierzchnia'}
-                onChange={changeDenominator}/> Powierzchnia
+                onChange={changeDenominator}/> Paczkomaty na 100km^2
             </label>
           </td>
         </tr>
